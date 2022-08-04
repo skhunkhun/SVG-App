@@ -1,0 +1,123 @@
+html {
+    width: 60%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+body {
+    height: 100%;
+    min-height: 100%;
+    line-height: 1.75;
+    background-color: #FFFFFF;
+}
+a:link:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+    cursor: pointer;
+    cursor: hand;
+}
+input[type=submit], button {
+    cursor: pointer;
+    cursor: hand;
+}
+
+h1{
+
+    text-align: center;
+}
+
+h3{
+
+    text-align: center;
+}
+
+#main{
+
+    text-align: center;
+}
+
+#file{
+
+    text-align: center;
+    border: 4px black;
+}
+
+#view{
+
+    text-align: center;
+}
+
+#uploadForm{
+
+    padding: 2em;
+    text-align: left;
+}
+
+table, tr, th, td{
+
+    text-align: center;
+    border: 2px solid black !important;
+    /* padding-bottom: 50px; */
+
+}
+
+#SVGViewPanel {
+
+    padding-bottom: 100px;
+    align-self: center;
+    height: 800px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+button {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 70px;
+    border-radius: 8px;
+    width: 200px;
+    color: black;
+    border: 2px solid blue; /* Green */
+    transition-duration: 0.4s;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svgInput {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.createSVGForm{
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+@media(max-width: 900px) {
+    html {
+        font-size: 14px !important;
+        width: 80% !important;
+    }
+}
+@media(max-width: 480px) {
+    html {
+        font-size: 12px !important;
+        width: 90% !important;
+    }
+}
+@media(max-width: 320px) {
+    html {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+}
